@@ -1,21 +1,17 @@
-MIT License
+# cambodian_nid_ocr
 
-Copyright (c) 2024 Kak Elay
+A Flutter package for Cambodian National ID OCR (Optical Character Recognition). This package allows you to process images and extract text from Cambodian National ID cards using image preprocessing and OCR.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Features
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- **Image Preprocessing**: Functions to preprocess images for better OCR results.
+- **OCR Engine**: An OCR engine to extract text from Cambodian National ID images.
+- **Text Parsing**: Parses the extracted text into meaningful information.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Installation
+
+To use this package in your Flutter project, add it as a dependency in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  cambodian_nid_ocr: ^0.0.1
